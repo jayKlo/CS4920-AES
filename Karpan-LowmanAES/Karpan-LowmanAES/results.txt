@@ -1,0 +1,1811 @@
+
+
+****** Original Message ******
+Key section before RotLeft
+AF 7F 67 98 
+Key section after RotLeft
+7F 67 98 AF 
+Key section after SubBytes
+D2 85 46 79 
+RCon is 01
+Key section after RCon XOR
+D3 85 46 79 
+Key section before RotLeft
+28 81 15 A7 
+Key section after RotLeft
+81 15 A7 28 
+Key section after SubBytes
+0C 59 5C 34 
+RCon is 02
+Key section after RCon XOR
+0E 59 5C 34 
+Key section before RotLeft
+E6 FF D3 F5 
+Key section after RotLeft
+FF D3 F5 E6 
+Key section after SubBytes
+16 66 E6 8E 
+RCon is 04
+Key section after RCon XOR
+12 66 E6 8E 
+Key section before RotLeft
+A1 AE 2C C0 
+Key section after RotLeft
+AE 2C C0 A1 
+Key section after SubBytes
+E4 71 BA 32 
+RCon is 08
+Key section after RCon XOR
+EC 71 BA 32 
+Key section before RotLeft
+43 0E DD AA 
+Key section after RotLeft
+0E DD AA 43 
+Key section after SubBytes
+AB C1 AC 1A 
+RCon is 10
+Key section after RCon XOR
+BB C1 AC 1A 
+Key section before RotLeft
+93 40 B9 BD 
+Key section after RotLeft
+40 B9 BD 93 
+Key section after SubBytes
+09 56 7A DC 
+RCon is 20
+Key section after RCon XOR
+29 56 7A DC 
+Key section before RotLeft
+CF A9 A9 29 
+Key section after RotLeft
+A9 A9 29 CF 
+Key section after SubBytes
+D3 D3 A5 8A 
+RCon is 40
+Key section after RCon XOR
+93 D3 A5 8A 
+Key section before RotLeft
+32 7D 89 4A 
+Key section after RotLeft
+7D 89 4A 32 
+Key section after SubBytes
+FF A7 D6 23 
+RCon is 80
+Key section after RCon XOR
+7F A7 D6 23 
+Key section before RotLeft
+3C A9 0B 89 
+Key section after RotLeft
+A9 0B 89 3C 
+Key section after SubBytes
+D3 2B A7 EB 
+RCon is 1B
+Key section after RCon XOR
+C8 2B A7 EB 
+Key section before RotLeft
+5B 6B 1E 56 
+Key section after RotLeft
+6B 1E 56 5B 
+Key section after SubBytes
+7F 72 B1 39 
+RCon is 36
+Key section after RCon XOR
+49 72 B1 39 
+The expanded key is
+0F 15 71 C9 
+47 D9 E8 59 
+1C B7 AD D6 
+AF 7F 67 98 
+DC 90 37 B0 
+9B 49 DF E9 
+87 FE 72 3F 
+28 81 15 A7 
+D2 C9 6B 84 
+49 80 B4 6D 
+CE 7E C6 52 
+E6 FF D3 F5 
+C0 AF 8D 0A 
+89 2F 39 67 
+47 51 FF 35 
+A1 AE 2C C0 
+2C DE 37 38 
+A5 F1 0E 5F 
+E2 A0 F1 6A 
+43 0E DD AA 
+97 1F 9B 22 
+32 EE 95 7D 
+D0 4E 64 17 
+93 40 B9 BD 
+BE 49 E1 FE 
+8C A7 74 83 
+5C E9 10 94 
+CF A9 A9 29 
+2D 9A 44 74 
+A1 3D 30 F7 
+FD D4 20 63 
+32 7D 89 4A 
+52 3D 92 57 
+F3 00 A2 A0 
+0E D4 82 C3 
+3C A9 0B 89 
+9A 16 35 BC 
+69 16 97 1C 
+67 C2 15 DF 
+5B 6B 1E 56 
+D3 64 84 85 
+BA 72 13 99 
+DD B0 06 46 
+86 DB 18 10 
+State before AddRoundKey in initial round
+01 23 45 67 89 AB CD EF FE DC BA 98 76 54 32 10 
+the roundKey for initial round
+0F 15 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+State after AddRoundKey in initial round
+0E 36 34 AE CE 72 25 B6 E2 6B 17 4E D9 2B 55 88 
+State before SubBytes in round 0
+0E 36 34 AE CE 72 25 B6 E2 6B 17 4E D9 2B 55 88 
+State after SubBytes in round 0
+AB 05 18 E4 8B 40 3F 4E 98 7F F0 2F 35 F1 FC C4 
+State after ShiftRows in round 0
+AB 40 F0 C4 8B 7F FC E4 98 F1 18 4E 35 05 3F 2F 
+State after MixColumns in round 0
+B9 E4 47 C5 94 8E 20 D6 75 07 8B C6 75 51 3F 3B 
+the roundKey for round 0
+DC 90 37 B0 9B 49 DF E9 87 FE 72 3F 28 81 15 A7 
+State after AddRoundKey in round 0
+65 74 70 75 0F C7 FF 3F F2 F9 F9 F9 5D D0 2A 9C 
+State before SubBytes in round 1
+65 74 70 75 0F C7 FF 3F F2 F9 F9 F9 5D D0 2A 9C 
+State after SubBytes in round 1
+4D 92 51 9D 76 C6 16 75 89 99 99 99 4C 70 E5 DE 
+State after ShiftRows in round 1
+4D C6 99 DE 76 99 E5 9D 89 70 51 75 4C 92 16 99 
+State after MixColumns in round 1
+8C B4 DB 2F 24 F6 82 C7 BD EF C4 4B BA D0 42 79 
+the roundKey for round 1
+D2 C9 6B 84 49 80 B4 6D CE 7E C6 52 E6 FF D3 F5 
+State after AddRoundKey in round 1
+5E 7D B0 AB 6D 76 36 AA 73 91 02 19 5C 2F 91 8C 
+State before SubBytes in round 2
+5E 7D B0 AB 6D 76 36 AA 73 91 02 19 5C 2F 91 8C 
+State after SubBytes in round 2
+58 FF E7 62 3C 38 05 AC 8F 81 77 D4 4A 15 81 64 
+State after ShiftRows in round 2
+58 38 77 64 3C 81 81 62 8F 15 E7 AC 4A FF 05 D4 
+State after MixColumns in round 2
+EB D5 22 6F 03 DF 02 80 71 3B A0 3B 5F 74 D8 97 
+the roundKey for round 2
+C0 AF 8D 0A 89 2F 39 67 47 51 FF 35 A1 AE 2C C0 
+State after AddRoundKey in round 2
+2B 7A AF 65 8A F0 3B E7 36 6A 5F 0E FE DA F4 57 
+State before SubBytes in round 3
+2B 7A AF 65 8A F0 3B E7 36 6A 5F 0E FE DA F4 57 
+State after SubBytes in round 3
+F1 DA 79 4D 7E 8C E2 94 05 02 CF AB BB 57 BF 5B 
+State after ShiftRows in round 3
+F1 8C CF 5B 7E 02 BF 4D 05 57 79 94 BB DA E2 AB 
+State after MixColumns in round 3
+E2 E3 15 FD 08 ED CE A5 1E B4 07 12 51 82 58 A3 
+the roundKey for round 3
+2C DE 37 38 A5 F1 0E 5F E2 A0 F1 6A 43 0E DD AA 
+State after AddRoundKey in round 3
+CE 3D 22 C5 AD 1C C0 FA FC 14 F6 78 12 8C 85 09 
+State before SubBytes in round 4
+CE 3D 22 C5 AD 1C C0 FA FC 14 F6 78 12 8C 85 09 
+State after SubBytes in round 4
+8B 27 93 A6 95 9C BA 2D B0 FA 42 BC C9 64 97 01 
+State after ShiftRows in round 4
+8B 9C 42 01 95 FA 97 A6 B0 64 93 2D C9 27 BA BC 
+State after MixColumns in round 4
+F1 6F 90 5A 15 7E AB 9E 69 FB 9E 66 E6 EE 5E BE 
+the roundKey for round 4
+97 1F 9B 22 32 EE 95 7D D0 4E 64 17 93 40 B9 BD 
+State after AddRoundKey in round 4
+66 70 0B 78 27 90 3E E3 B9 B5 FA 71 75 AE E7 03 
+State before SubBytes in round 5
+66 70 0B 78 27 90 3E E3 B9 B5 FA 71 75 AE E7 03 
+State after SubBytes in round 5
+33 51 2B BC CC 60 B2 11 56 D5 2D A3 9D E4 94 7B 
+State after ShiftRows in round 5
+33 60 2D 7B CC D5 94 BC 56 E4 2B 11 9D 51 B2 A3 
+State after MixColumns in round 5
+90 FF 84 EE CF 66 F5 6D A1 E9 D7 17 C3 51 4D 02 
+the roundKey for round 5
+BE 49 E1 FE 8C A7 74 83 5C E9 10 94 CF A9 A9 29 
+State after AddRoundKey in round 5
+2E B6 65 10 43 C1 81 EE FD 00 C7 83 0C F8 E4 2B 
+State before SubBytes in round 6
+2E B6 65 10 43 C1 81 EE FD 00 C7 83 0C F8 E4 2B 
+State after SubBytes in round 6
+31 4E 4D CA 1A 78 0C 28 54 63 C6 EC FE 41 69 F1 
+State after ShiftRows in round 6
+31 78 C6 F1 1A 63 69 CA 54 41 4D 28 FE 4E 0C EC 
+State after MixColumns in round 6
+DD 61 D6 14 32 AD EE AB 0E 29 F7 A0 D5 9A 87 98 
+the roundKey for round 6
+2D 9A 44 74 A1 3D 30 F7 FD D4 20 63 32 7D 89 4A 
+State after AddRoundKey in round 6
+F0 FB 92 60 93 90 DE 5C F3 FD D7 C3 E7 E7 0E D2 
+State before SubBytes in round 7
+F0 FB 92 60 93 90 DE 5C F3 FD D7 C3 E7 E7 0E D2 
+State after SubBytes in round 7
+8C 0F 4F D0 DC 60 1D 4A 0D 54 0E 2E 94 94 AB B5 
+State after ShiftRows in round 7
+8C 60 0E B5 DC 54 AB D0 0D 94 4F 4A 94 0F 1D 2E 
+State after MixColumns in round 7
+18 EB 34 90 24 42 AE 3B B8 A5 D9 58 11 83 D3 E9 
+the roundKey for round 7
+52 3D 92 57 F3 00 A2 A0 0E D4 82 C3 3C A9 0B 89 
+State after AddRoundKey in round 7
+4A D6 A6 C7 D7 42 0C 9B B6 71 5B 9B 2D 2A D8 60 
+State before SubBytes in round 8
+4A D6 A6 C7 D7 42 0C 9B B6 71 5B 9B 2D 2A D8 60 
+State after SubBytes in round 8
+D6 F6 24 C6 0E 2C FE 14 4E A3 39 14 D8 E5 61 D0 
+State after ShiftRows in round 8
+D6 2C 39 D0 0E A3 61 C6 4E E5 24 14 D8 F6 FE 14 
+State after MixColumns in round 8
+2A 15 E3 CF 45 36 3E 47 98 E7 DF 3B 40 22 F5 53 
+the roundKey for round 8
+9A 16 35 BC 69 16 97 1C 67 C2 15 DF 5B 6B 1E 56 
+State after AddRoundKey in round 8
+B0 03 D6 73 2C 20 A9 5B FF 25 CA E4 1B 49 EB 05 
+State after SubBytes in final round 
+E7 7B F6 8F 71 B7 D3 39 16 3F 74 69 AF 3B E9 6B 
+State after ShiftRows in final round 
+E7 B7 74 6B 71 3F E9 8F 16 3B F6 39 AF 7B D3 69 
+the roundKey for the final round
+D3 64 84 85 BA 72 13 99 DD B0 06 46 86 DB 18 10 
+State after AddRoundKey in final round 
+34 D3 F0 EE CB 4D FA 16 CB 8B F0 7F 29 A0 CB 79 
+
+****** Message 2 ******
+Key section before RotLeft
+AF 7F 67 98 
+Key section after RotLeft
+7F 67 98 AF 
+Key section after SubBytes
+D2 85 46 79 
+RCon is 01
+Key section after RCon XOR
+D3 85 46 79 
+Key section before RotLeft
+28 81 15 A7 
+Key section after RotLeft
+81 15 A7 28 
+Key section after SubBytes
+0C 59 5C 34 
+RCon is 02
+Key section after RCon XOR
+0E 59 5C 34 
+Key section before RotLeft
+E6 FF D3 F5 
+Key section after RotLeft
+FF D3 F5 E6 
+Key section after SubBytes
+16 66 E6 8E 
+RCon is 04
+Key section after RCon XOR
+12 66 E6 8E 
+Key section before RotLeft
+A1 AE 2C C0 
+Key section after RotLeft
+AE 2C C0 A1 
+Key section after SubBytes
+E4 71 BA 32 
+RCon is 08
+Key section after RCon XOR
+EC 71 BA 32 
+Key section before RotLeft
+43 0E DD AA 
+Key section after RotLeft
+0E DD AA 43 
+Key section after SubBytes
+AB C1 AC 1A 
+RCon is 10
+Key section after RCon XOR
+BB C1 AC 1A 
+Key section before RotLeft
+93 40 B9 BD 
+Key section after RotLeft
+40 B9 BD 93 
+Key section after SubBytes
+09 56 7A DC 
+RCon is 20
+Key section after RCon XOR
+29 56 7A DC 
+Key section before RotLeft
+CF A9 A9 29 
+Key section after RotLeft
+A9 A9 29 CF 
+Key section after SubBytes
+D3 D3 A5 8A 
+RCon is 40
+Key section after RCon XOR
+93 D3 A5 8A 
+Key section before RotLeft
+32 7D 89 4A 
+Key section after RotLeft
+7D 89 4A 32 
+Key section after SubBytes
+FF A7 D6 23 
+RCon is 80
+Key section after RCon XOR
+7F A7 D6 23 
+Key section before RotLeft
+3C A9 0B 89 
+Key section after RotLeft
+A9 0B 89 3C 
+Key section after SubBytes
+D3 2B A7 EB 
+RCon is 1B
+Key section after RCon XOR
+C8 2B A7 EB 
+Key section before RotLeft
+5B 6B 1E 56 
+Key section after RotLeft
+6B 1E 56 5B 
+Key section after SubBytes
+7F 72 B1 39 
+RCon is 36
+Key section after RCon XOR
+49 72 B1 39 
+The expanded key is
+0F 15 71 C9 
+47 D9 E8 59 
+1C B7 AD D6 
+AF 7F 67 98 
+DC 90 37 B0 
+9B 49 DF E9 
+87 FE 72 3F 
+28 81 15 A7 
+D2 C9 6B 84 
+49 80 B4 6D 
+CE 7E C6 52 
+E6 FF D3 F5 
+C0 AF 8D 0A 
+89 2F 39 67 
+47 51 FF 35 
+A1 AE 2C C0 
+2C DE 37 38 
+A5 F1 0E 5F 
+E2 A0 F1 6A 
+43 0E DD AA 
+97 1F 9B 22 
+32 EE 95 7D 
+D0 4E 64 17 
+93 40 B9 BD 
+BE 49 E1 FE 
+8C A7 74 83 
+5C E9 10 94 
+CF A9 A9 29 
+2D 9A 44 74 
+A1 3D 30 F7 
+FD D4 20 63 
+32 7D 89 4A 
+52 3D 92 57 
+F3 00 A2 A0 
+0E D4 82 C3 
+3C A9 0B 89 
+9A 16 35 BC 
+69 16 97 1C 
+67 C2 15 DF 
+5B 6B 1E 56 
+D3 64 84 85 
+BA 72 13 99 
+DD B0 06 46 
+86 DB 18 10 
+State before AddRoundKey in initial round
+00 23 45 67 89 AB CD EF FE DC BA 98 76 54 32 10 
+the roundKey for initial round
+0F 15 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+State after AddRoundKey in initial round
+0F 36 34 AE CE 72 25 B6 E2 6B 17 4E D9 2B 55 88 
+State before SubBytes in round 0
+0F 36 34 AE CE 72 25 B6 E2 6B 17 4E D9 2B 55 88 
+State after SubBytes in round 0
+76 05 18 E4 8B 40 3F 4E 98 7F F0 2F 35 F1 FC C4 
+State after ShiftRows in round 0
+76 40 F0 C4 8B 7F FC E4 98 F1 18 4E 35 05 3F 2F 
+State after MixColumns in round 0
+18 39 9A B9 94 8E 20 D6 75 07 8B C6 75 51 3F 3B 
+the roundKey for round 0
+DC 90 37 B0 9B 49 DF E9 87 FE 72 3F 28 81 15 A7 
+State after AddRoundKey in round 0
+C4 A9 AD 09 0F C7 FF 3F F2 F9 F9 F9 5D D0 2A 9C 
+State before SubBytes in round 1
+C4 A9 AD 09 0F C7 FF 3F F2 F9 F9 F9 5D D0 2A 9C 
+State after SubBytes in round 1
+1C D3 95 01 76 C6 16 75 89 99 99 99 4C 70 E5 DE 
+State after ShiftRows in round 1
+1C C6 99 DE 76 99 E5 01 89 70 95 75 4C D3 16 99 
+State after MixColumns in round 1
+2E E5 8A DC B8 6A 3D E4 79 B8 57 8F 79 52 03 38 
+the roundKey for round 1
+D2 C9 6B 84 49 80 B4 6D CE 7E C6 52 E6 FF D3 F5 
+State after AddRoundKey in round 1
+FC 2C E1 58 F1 EA 89 89 B7 C6 91 DD 9F AD D0 CD 
+State before SubBytes in round 2
+FC 2C E1 58 F1 EA 89 89 B7 C6 91 DD 9F AD D0 CD 
+State after SubBytes in round 2
+B0 71 F8 6A A1 87 A7 A7 A9 B4 81 C1 DB 95 70 BD 
+State after ShiftRows in round 2
+B0 87 81 BD A1 B4 70 6A A9 95 F8 A7 DB 71 A7 C1 
+State after MixColumns in round 2
+D5 80 F2 AC 84 28 4B E8 B2 2C 25 D8 58 0A A7 39 
+the roundKey for round 2
+C0 AF 8D 0A 89 2F 39 67 47 51 FF 35 A1 AE 2C C0 
+State after AddRoundKey in round 2
+15 2F 7F A6 0D 07 72 8F F5 7D DA ED F9 A4 8B F9 
+State before SubBytes in round 3
+15 2F 7F A6 0D 07 72 8F F5 7D DA ED F9 A4 8B F9 
+State after SubBytes in round 3
+59 15 D2 24 D7 C5 40 73 E6 FF 57 55 99 49 3D 99 
+State after ShiftRows in round 3
+59 C5 57 99 D7 FF 3D 24 E6 49 D2 73 99 15 40 55 
+State after MixColumns in round 3
+28 A8 82 50 B6 51 3E E8 AD 6A 85 4C 03 26 F3 4F 
+the roundKey for round 3
+2C DE 37 38 A5 F1 0E 5F E2 A0 F1 6A 43 0E DD AA 
+State after AddRoundKey in round 3
+04 76 B5 68 13 A0 30 B7 4F CA 74 26 40 28 2E E5 
+State before SubBytes in round 4
+04 76 B5 68 13 A0 30 B7 4F CA 74 26 40 28 2E E5 
+State after SubBytes in round 4
+F2 38 D5 45 7D E0 04 A9 84 74 92 F7 09 34 31 D9 
+State after ShiftRows in round 4
+F2 E0 92 D9 7D 74 31 45 84 34 D5 A9 09 38 04 F7 
+State after MixColumns in round 4
+8F 5D 5D D6 12 83 A4 48 33 21 E1 3F A9 82 3B D2 
+the roundKey for round 4
+97 1F 9B 22 32 EE 95 7D D0 4E 64 17 93 40 B9 BD 
+State after AddRoundKey in round 4
+18 42 C6 F4 20 6D 31 35 E3 6F 85 28 3A C2 82 6F 
+State before SubBytes in round 5
+18 42 C6 F4 20 6D 31 35 E3 6F 85 28 3A C2 82 6F 
+State after SubBytes in round 5
+AD 2C B4 BF B7 3C C7 96 11 A8 97 34 80 25 13 A8 
+State after ShiftRows in round 5
+AD 3C 97 A8 B7 A8 13 BF 11 25 B4 96 80 2C C7 34 
+State after MixColumns in round 5
+3A DF 47 0C 3A 76 E3 1C 6F 0A E6 95 9C BE 65 18 
+the roundKey for round 5
+BE 49 E1 FE 8C A7 74 83 5C E9 10 94 CF A9 A9 29 
+State after AddRoundKey in round 5
+84 96 A6 F2 B6 D1 97 9F 33 E3 F6 01 53 17 CC 31 
+State before SubBytes in round 6
+84 96 A6 F2 B6 D1 97 9F 33 E3 F6 01 53 17 CC 31 
+State after SubBytes in round 6
+5F 90 24 89 4E 3E 88 DB C3 11 42 7C ED F0 4B C7 
+State after ShiftRows in round 6
+5F 3E 42 C7 4E 11 4B 89 C3 F0 24 DB ED 90 88 7C 
+State after MixColumns in round 6
+79 22 B7 08 6D 38 49 81 69 8F 0D 27 9E 29 F2 CC 
+the roundKey for round 6
+2D 9A 44 74 A1 3D 30 F7 FD D4 20 63 32 7D 89 4A 
+State after AddRoundKey in round 6
+54 B8 F3 7C CC 05 79 76 94 5B 2D 44 AC 54 7B 86 
+State before SubBytes in round 7
+54 B8 F3 7C CC 05 79 76 94 5B 2D 44 AC 54 7B 86 
+State after SubBytes in round 7
+20 6C 0D 10 4B 6B B6 38 22 39 D8 1B 91 20 21 44 
+State after ShiftRows in round 7
+20 6B D8 44 4B 39 21 10 22 20 0D 38 91 6C B6 1B 
+State after MixColumns in round 7
+61 C1 2C 5B EC 4A 00 E5 11 4D 50 3B 20 93 A7 44 
+the roundKey for round 7
+52 3D 92 57 F3 00 A2 A0 0E D4 82 C3 3C A9 0B 89 
+State after AddRoundKey in round 7
+33 FC BE 0C 1F 4A A2 45 1F 99 D2 F8 1C 3A AC CD 
+State before SubBytes in round 8
+33 FC BE 0C 1F 4A A2 45 1F 99 D2 F8 1C 3A AC CD 
+State after SubBytes in round 8
+C3 B0 AE FE C0 D6 3A 6E C0 EE B5 41 9C 80 91 BD 
+State after ShiftRows in round 8
+C3 D6 B5 BD C0 EE 91 FE C0 80 AE 6E 9C B0 3A 41 
+State after MixColumns in round 8
+F4 0D B8 5C DD 51 0E C3 C0 5C B5 A9 93 E8 9B B7 
+the roundKey for round 8
+9A 16 35 BC 69 16 97 1C 67 C2 15 DF 5B 6B 1E 56 
+State after AddRoundKey in round 8
+6E 1B 8D E0 B4 47 99 DF A7 9E A0 76 C8 83 85 E1 
+State after SubBytes in final round 
+9F AF 5D E1 8D A0 EE 9E 5C 0B E0 38 E8 EC 97 F8 
+State after ShiftRows in final round 
+9F A0 E0 F8 8D 0B 97 E1 5C EC 5D 9E E8 AF EE 38 
+the roundKey for the final round
+D3 64 84 85 BA 72 13 99 DD B0 06 46 86 DB 18 10 
+State after AddRoundKey in final round 
+4C C4 64 7D 37 79 84 78 81 5C 5B D8 6E 74 F6 28 
+
+****** Message 3 ******
+Key section before RotLeft
+AF 7F 67 98 
+Key section after RotLeft
+7F 67 98 AF 
+Key section after SubBytes
+D2 85 46 79 
+RCon is 01
+Key section after RCon XOR
+D3 85 46 79 
+Key section before RotLeft
+28 81 15 A7 
+Key section after RotLeft
+81 15 A7 28 
+Key section after SubBytes
+0C 59 5C 34 
+RCon is 02
+Key section after RCon XOR
+0E 59 5C 34 
+Key section before RotLeft
+E6 FF D3 F5 
+Key section after RotLeft
+FF D3 F5 E6 
+Key section after SubBytes
+16 66 E6 8E 
+RCon is 04
+Key section after RCon XOR
+12 66 E6 8E 
+Key section before RotLeft
+A1 AE 2C C0 
+Key section after RotLeft
+AE 2C C0 A1 
+Key section after SubBytes
+E4 71 BA 32 
+RCon is 08
+Key section after RCon XOR
+EC 71 BA 32 
+Key section before RotLeft
+43 0E DD AA 
+Key section after RotLeft
+0E DD AA 43 
+Key section after SubBytes
+AB C1 AC 1A 
+RCon is 10
+Key section after RCon XOR
+BB C1 AC 1A 
+Key section before RotLeft
+93 40 B9 BD 
+Key section after RotLeft
+40 B9 BD 93 
+Key section after SubBytes
+09 56 7A DC 
+RCon is 20
+Key section after RCon XOR
+29 56 7A DC 
+Key section before RotLeft
+CF A9 A9 29 
+Key section after RotLeft
+A9 A9 29 CF 
+Key section after SubBytes
+D3 D3 A5 8A 
+RCon is 40
+Key section after RCon XOR
+93 D3 A5 8A 
+Key section before RotLeft
+32 7D 89 4A 
+Key section after RotLeft
+7D 89 4A 32 
+Key section after SubBytes
+FF A7 D6 23 
+RCon is 80
+Key section after RCon XOR
+7F A7 D6 23 
+Key section before RotLeft
+3C A9 0B 89 
+Key section after RotLeft
+A9 0B 89 3C 
+Key section after SubBytes
+D3 2B A7 EB 
+RCon is 1B
+Key section after RCon XOR
+C8 2B A7 EB 
+Key section before RotLeft
+5B 6B 1E 56 
+Key section after RotLeft
+6B 1E 56 5B 
+Key section after SubBytes
+7F 72 B1 39 
+RCon is 36
+Key section after RCon XOR
+49 72 B1 39 
+The expanded key is
+0F 15 71 C9 
+47 D9 E8 59 
+1C B7 AD D6 
+AF 7F 67 98 
+DC 90 37 B0 
+9B 49 DF E9 
+87 FE 72 3F 
+28 81 15 A7 
+D2 C9 6B 84 
+49 80 B4 6D 
+CE 7E C6 52 
+E6 FF D3 F5 
+C0 AF 8D 0A 
+89 2F 39 67 
+47 51 FF 35 
+A1 AE 2C C0 
+2C DE 37 38 
+A5 F1 0E 5F 
+E2 A0 F1 6A 
+43 0E DD AA 
+97 1F 9B 22 
+32 EE 95 7D 
+D0 4E 64 17 
+93 40 B9 BD 
+BE 49 E1 FE 
+8C A7 74 83 
+5C E9 10 94 
+CF A9 A9 29 
+2D 9A 44 74 
+A1 3D 30 F7 
+FD D4 20 63 
+32 7D 89 4A 
+52 3D 92 57 
+F3 00 A2 A0 
+0E D4 82 C3 
+3C A9 0B 89 
+9A 16 35 BC 
+69 16 97 1C 
+67 C2 15 DF 
+5B 6B 1E 56 
+D3 64 84 85 
+BA 72 13 99 
+DD B0 06 46 
+86 DB 18 10 
+State before AddRoundKey in initial round
+01 22 45 67 89 AB CD EF FE DC BA 98 76 54 32 10 
+the roundKey for initial round
+0F 15 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+State after AddRoundKey in initial round
+0E 37 34 AE CE 72 25 B6 E2 6B 17 4E D9 2B 55 88 
+State before SubBytes in round 0
+0E 37 34 AE CE 72 25 B6 E2 6B 17 4E D9 2B 55 88 
+State after SubBytes in round 0
+AB 9A 18 E4 8B 40 3F 4E 98 7F F0 2F 35 F1 FC C4 
+State after ShiftRows in round 0
+AB 40 F0 C4 8B 7F FC E4 98 F1 18 4E 35 9A 3F 2F 
+State after MixColumns in round 0
+B9 E4 47 C5 94 8E 20 D6 75 07 8B C6 CF 74 A0 A4 
+the roundKey for round 0
+DC 90 37 B0 9B 49 DF E9 87 FE 72 3F 28 81 15 A7 
+State after AddRoundKey in round 0
+65 74 70 75 0F C7 FF 3F F2 F9 F9 F9 E7 F5 B5 03 
+State before SubBytes in round 1
+65 74 70 75 0F C7 FF 3F F2 F9 F9 F9 E7 F5 B5 03 
+State after SubBytes in round 1
+4D 92 51 9D 76 C6 16 75 89 99 99 99 94 E6 D5 7B 
+State after ShiftRows in round 1
+4D C6 99 7B 76 99 D5 9D 89 E6 51 75 94 92 16 99 
+State after MixColumns in round 1
+29 11 2F 7E 14 A6 E2 F7 1C D8 52 DD 11 08 9A 0A 
+the roundKey for round 1
+D2 C9 6B 84 49 80 B4 6D CE 7E C6 52 E6 FF D3 F5 
+State after AddRoundKey in round 1
+FB D8 44 FA 5D 26 56 9A D2 A6 94 8F F7 F7 49 FF 
+State before SubBytes in round 2
+FB D8 44 FA 5D 26 56 9A D2 A6 94 8F F7 F7 49 FF 
+State after SubBytes in round 2
+0F 61 1B 2D 4C F7 B1 B8 B5 24 22 73 68 68 3B 16 
+State after ShiftRows in round 2
+0F F7 22 16 4C 24 3B 2D B5 68 1B B8 68 61 B1 73 
+State after MixColumns in round 2
+28 8A 86 E8 E2 64 69 91 6A F0 38 DC B1 11 E5 8E 
+the roundKey for round 2
+C0 AF 8D 0A 89 2F 39 67 47 51 FF 35 A1 AE 2C C0 
+State after AddRoundKey in round 2
+E8 25 0B E2 6B 4B 50 F6 2D A1 C7 E9 10 BF C9 4E 
+State before SubBytes in round 3
+E8 25 0B E2 6B 4B 50 F6 2D A1 C7 E9 10 BF C9 4E 
+State after SubBytes in round 3
+9B 3F 2B 98 7F B3 53 42 D8 32 C6 1E CA 08 DD 2F 
+State after ShiftRows in round 3
+9B B3 C6 2F 7F 32 DD 98 D8 08 2B 42 CA 3F 53 1E 
+State after MixColumns in round 3
+0A 98 CE 9D ED FF 5F 45 DA F7 40 D4 83 5F 71 15 
+the roundKey for round 3
+2C DE 37 38 A5 F1 0E 5F E2 A0 F1 6A 43 0E DD AA 
+State after AddRoundKey in round 3
+26 46 F9 A5 48 0E 51 1A 38 57 B1 BE C0 51 AC BF 
+State before SubBytes in round 4
+26 46 F9 A5 48 0E 51 1A 38 57 B1 BE C0 51 AC BF 
+State after SubBytes in round 4
+F7 5A 99 06 52 AB D1 A2 07 5B C8 AE BA D1 91 08 
+State after ShiftRows in round 4
+F7 AB C8 08 52 5B 91 06 07 D1 99 A2 BA 5A D1 AE 
+State after MixColumns in round 4
+D3 F1 CF 71 DE 4A 3A 30 5D AC 02 1E FE C8 B0 19 
+the roundKey for round 4
+97 1F 9B 22 32 EE 95 7D D0 4E 64 17 93 40 B9 BD 
+State after AddRoundKey in round 4
+44 EE 54 53 EC A4 AF 4D 8D E2 66 09 6D 88 09 A4 
+State before SubBytes in round 5
+44 EE 54 53 EC A4 AF 4D 8D E2 66 09 6D 88 09 A4 
+State after SubBytes in round 5
+1B 28 20 ED CE 49 79 E3 5D 98 33 01 3C C4 01 49 
+State after ShiftRows in round 5
+1B 49 33 49 CE 98 01 ED 5D C4 20 E3 3C 28 79 01 
+State after MixColumns in round 5
+97 95 EF C5 D8 0B 78 11 2E 4D E7 DE 78 E6 E5 17 
+the roundKey for round 5
+BE 49 E1 FE 8C A7 74 83 5C E9 10 94 CF A9 A9 29 
+State after AddRoundKey in round 5
+29 DC 0E 3B 54 AC 0C 92 72 A4 F7 4A B7 4F 4C 3E 
+State before SubBytes in round 6
+29 DC 0E 3B 54 AC 0C 92 72 A4 F7 4A B7 4F 4C 3E 
+State after SubBytes in round 6
+A5 86 AB E2 20 91 FE 4F 40 49 68 D6 A9 84 29 B2 
+State after ShiftRows in round 6
+A5 91 68 B2 20 49 29 E2 40 84 AB 4F A9 86 FE D6 
+State after MixColumns in round 6
+23 96 29 72 50 2B 06 DF F3 FA 58 71 F0 71 A9 2F 
+the roundKey for round 6
+2D 9A 44 74 A1 3D 30 F7 FD D4 20 63 32 7D 89 4A 
+State after AddRoundKey in round 6
+0E 0C 6D 06 F1 16 36 28 0E 2E 78 12 C2 0C 20 65 
+State before SubBytes in round 7
+0E 0C 6D 06 F1 16 36 28 0E 2E 78 12 C2 0C 20 65 
+State after SubBytes in round 7
+AB FE 3C 6F A1 47 05 34 AB 31 BC C9 25 FE B7 4D 
+State after ShiftRows in round 7
+AB 47 BC 4D A1 31 B7 6F AB FE 3C 34 25 FE 05 C9 
+State after MixColumns in round 7
+75 B7 58 87 D2 6E 54 A0 5C 3C 71 4C 9F 04 91 1D 
+the roundKey for round 7
+52 3D 92 57 F3 00 A2 A0 0E D4 82 C3 3C A9 0B 89 
+State after AddRoundKey in round 7
+27 8A CA D0 21 6E F6 00 52 E8 F3 8F A3 AD 9A 94 
+State before SubBytes in round 8
+27 8A CA D0 21 6E F6 00 52 E8 F3 8F A3 AD 9A 94 
+State after SubBytes in round 8
+CC 7E 74 70 FD 9F 42 63 00 9B 0D 73 0A 95 B8 22 
+State after ShiftRows in round 8
+CC 9F 0D 22 FD 9B B8 70 00 95 74 63 0A 7E 42 73 
+State after MixColumns in round 8
+16 DC 2F 99 9F 73 9D DF B3 CE D8 27 A7 43 65 C4 
+the roundKey for round 8
+9A 16 35 BC 69 16 97 1C 67 C2 15 DF 5B 6B 1E 56 
+State after AddRoundKey in round 8
+8C CA 1A 25 F6 65 0A C3 D4 0C CD F8 FC 28 7B 92 
+State after SubBytes in final round 
+64 74 A2 3F 42 4D 67 2E 48 FE BD 41 B0 34 21 4F 
+State after ShiftRows in final round 
+64 4D BD 4F 42 FE 21 3F 48 34 A2 2E B0 74 67 41 
+the roundKey for the final round
+D3 64 84 85 BA 72 13 99 DD B0 06 46 86 DB 18 10 
+State after AddRoundKey in final round 
+B7 29 39 CA F8 8C 32 A6 95 84 A4 68 36 AF 7F 51 
+
+****** Message 4 ******
+Key section before RotLeft
+AF 7F 67 98 
+Key section after RotLeft
+7F 67 98 AF 
+Key section after SubBytes
+D2 85 46 79 
+RCon is 01
+Key section after RCon XOR
+D3 85 46 79 
+Key section before RotLeft
+28 81 15 A7 
+Key section after RotLeft
+81 15 A7 28 
+Key section after SubBytes
+0C 59 5C 34 
+RCon is 02
+Key section after RCon XOR
+0E 59 5C 34 
+Key section before RotLeft
+E6 FF D3 F5 
+Key section after RotLeft
+FF D3 F5 E6 
+Key section after SubBytes
+16 66 E6 8E 
+RCon is 04
+Key section after RCon XOR
+12 66 E6 8E 
+Key section before RotLeft
+A1 AE 2C C0 
+Key section after RotLeft
+AE 2C C0 A1 
+Key section after SubBytes
+E4 71 BA 32 
+RCon is 08
+Key section after RCon XOR
+EC 71 BA 32 
+Key section before RotLeft
+43 0E DD AA 
+Key section after RotLeft
+0E DD AA 43 
+Key section after SubBytes
+AB C1 AC 1A 
+RCon is 10
+Key section after RCon XOR
+BB C1 AC 1A 
+Key section before RotLeft
+93 40 B9 BD 
+Key section after RotLeft
+40 B9 BD 93 
+Key section after SubBytes
+09 56 7A DC 
+RCon is 20
+Key section after RCon XOR
+29 56 7A DC 
+Key section before RotLeft
+CF A9 A9 29 
+Key section after RotLeft
+A9 A9 29 CF 
+Key section after SubBytes
+D3 D3 A5 8A 
+RCon is 40
+Key section after RCon XOR
+93 D3 A5 8A 
+Key section before RotLeft
+32 7D 89 4A 
+Key section after RotLeft
+7D 89 4A 32 
+Key section after SubBytes
+FF A7 D6 23 
+RCon is 80
+Key section after RCon XOR
+7F A7 D6 23 
+Key section before RotLeft
+3C A9 0B 89 
+Key section after RotLeft
+A9 0B 89 3C 
+Key section after SubBytes
+D3 2B A7 EB 
+RCon is 1B
+Key section after RCon XOR
+C8 2B A7 EB 
+Key section before RotLeft
+5B 6B 1E 56 
+Key section after RotLeft
+6B 1E 56 5B 
+Key section after SubBytes
+7F 72 B1 39 
+RCon is 36
+Key section after RCon XOR
+49 72 B1 39 
+The expanded key is
+0F 15 71 C9 
+47 D9 E8 59 
+1C B7 AD D6 
+AF 7F 67 98 
+DC 90 37 B0 
+9B 49 DF E9 
+87 FE 72 3F 
+28 81 15 A7 
+D2 C9 6B 84 
+49 80 B4 6D 
+CE 7E C6 52 
+E6 FF D3 F5 
+C0 AF 8D 0A 
+89 2F 39 67 
+47 51 FF 35 
+A1 AE 2C C0 
+2C DE 37 38 
+A5 F1 0E 5F 
+E2 A0 F1 6A 
+43 0E DD AA 
+97 1F 9B 22 
+32 EE 95 7D 
+D0 4E 64 17 
+93 40 B9 BD 
+BE 49 E1 FE 
+8C A7 74 83 
+5C E9 10 94 
+CF A9 A9 29 
+2D 9A 44 74 
+A1 3D 30 F7 
+FD D4 20 63 
+32 7D 89 4A 
+52 3D 92 57 
+F3 00 A2 A0 
+0E D4 82 C3 
+3C A9 0B 89 
+9A 16 35 BC 
+69 16 97 1C 
+67 C2 15 DF 
+5B 6B 1E 56 
+D3 64 84 85 
+BA 72 13 99 
+DD B0 06 46 
+86 DB 18 10 
+State before AddRoundKey in initial round
+01 23 46 67 89 AB CD EF FE DC BA 98 76 54 32 10 
+the roundKey for initial round
+0F 15 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+State after AddRoundKey in initial round
+0E 36 37 AE CE 72 25 B6 E2 6B 17 4E D9 2B 55 88 
+State before SubBytes in round 0
+0E 36 37 AE CE 72 25 B6 E2 6B 17 4E D9 2B 55 88 
+State after SubBytes in round 0
+AB 05 9A E4 8B 40 3F 4E 98 7F F0 2F 35 F1 FC C4 
+State after ShiftRows in round 0
+AB 40 F0 C4 8B 7F FC E4 98 F1 9A 4E 35 05 3F 2F 
+State after MixColumns in round 0
+B9 E4 47 C5 94 8E 20 D6 F7 9A 94 44 75 51 3F 3B 
+the roundKey for round 0
+DC 90 37 B0 9B 49 DF E9 87 FE 72 3F 28 81 15 A7 
+State after AddRoundKey in round 0
+65 74 70 75 0F C7 FF 3F 70 64 E6 7B 5D D0 2A 9C 
+State before SubBytes in round 1
+65 74 70 75 0F C7 FF 3F 70 64 E6 7B 5D D0 2A 9C 
+State after SubBytes in round 1
+4D 92 51 9D 76 C6 16 75 51 43 8E 21 4C 70 E5 DE 
+State after ShiftRows in round 1
+4D C6 8E DE 76 43 E5 9D 51 70 51 75 4C 92 16 21 
+State after MixColumns in round 1
+9B 8D F5 38 51 59 58 1D 16 37 1C 38 02 68 91 12 
+the roundKey for round 1
+D2 C9 6B 84 49 80 B4 6D CE 7E C6 52 E6 FF D3 F5 
+State after AddRoundKey in round 1
+49 44 9E BC 18 D9 EC 70 D8 49 DA 6A E4 97 42 E7 
+State before SubBytes in round 2
+49 44 9E BC 18 D9 EC 70 D8 49 DA 6A E4 97 42 E7 
+State after SubBytes in round 2
+3B 1B 0B 65 AD 35 CE 51 61 3B 57 02 69 88 2C 94 
+State after ShiftRows in round 2
+3B 35 57 94 AD 3B 2C 65 61 88 0B 51 69 1B CE 02 
+State after MixColumns in round 2
+EA 3C 07 1C 45 CA 61 31 1B 26 0C 82 33 14 F3 6A 
+the roundKey for round 2
+C0 AF 8D 0A 89 2F 39 67 47 51 FF 35 A1 AE 2C C0 
+State after AddRoundKey in round 2
+2A 93 8A 16 CC E5 58 56 5C 77 F3 B7 92 BA DF AA 
+State before SubBytes in round 3
+2A 93 8A 16 CC E5 58 56 5C 77 F3 B7 92 BA DF AA 
+State after SubBytes in round 3
+E5 DC 7E 47 4B D9 6A B1 4A F5 0D A9 4F F4 9E AC 
+State after ShiftRows in round 3
+E5 D9 0D AC 4B F5 9E 47 4A F4 7E B1 4F DC 6A A9 
+State after MixColumns in round 3
+00 F7 C9 A3 4B 44 50 38 5C 8A 8A 2D 22 FB A7 2E 
+the roundKey for round 3
+2C DE 37 38 A5 F1 0E 5F E2 A0 F1 6A 43 0E DD AA 
+State after AddRoundKey in round 3
+2C 29 FE 9B EE B5 5E 67 BE 2A 7B 47 61 F5 7A 84 
+State before SubBytes in round 4
+2C 29 FE 9B EE B5 5E 67 BE 2A 7B 47 61 F5 7A 84 
+State after SubBytes in round 4
+71 A5 BB 14 28 D5 58 85 AE E5 21 A0 EF E6 DA 5F 
+State after ShiftRows in round 4
+71 D5 21 5F 28 E5 DA 14 AE E6 BB 85 EF A5 58 A0 
+State after MixColumns in round 4
+F8 FC 07 D9 AA 98 5E 6F 48 2A B1 A5 C9 F6 01 8C 
+the roundKey for round 4
+97 1F 9B 22 32 EE 95 7D D0 4E 64 17 93 40 B9 BD 
+State after AddRoundKey in round 4
+6F E3 9C FB 98 76 CB 12 98 64 D5 B2 5A B6 B8 31 
+State before SubBytes in round 5
+6F E3 9C FB 98 76 CB 12 98 64 D5 B2 5A B6 B8 31 
+State after SubBytes in round 5
+A8 11 DE 0F 46 38 1F C9 46 43 03 37 BE 4E 6C C7 
+State after ShiftRows in round 5
+A8 38 03 C7 46 43 6C 0F 46 4E DE C9 BE 11 1F 37 
+State after MixColumns in round 5
+C7 1A C4 4D 2A 7B CC FB 49 6A EF D3 7C 8A C8 B9 
+the roundKey for round 5
+BE 49 E1 FE 8C A7 74 83 5C E9 10 94 CF A9 A9 29 
+State after AddRoundKey in round 5
+79 53 25 B3 A6 DC B8 78 15 83 FF 47 B3 23 61 90 
+State before SubBytes in round 6
+79 53 25 B3 A6 DC B8 78 15 83 FF 47 B3 23 61 90 
+State after SubBytes in round 6
+B6 ED 3F 6D 24 86 6C BC 59 EC 16 A0 6D 26 EF 60 
+State after ShiftRows in round 6
+B6 86 16 60 24 EC EF 6D 59 26 3F BC 6D ED 6C A0 
+State after MixColumns in round 6
+90 FB BC 91 E5 A0 BA B5 5B E8 DE 91 3A B8 A3 6D 
+the roundKey for round 6
+2D 9A 44 74 A1 3D 30 F7 FD D4 20 63 32 7D 89 4A 
+State after AddRoundKey in round 6
+BD 61 F8 E5 44 9D 8A 42 A6 3C FE F2 08 C5 2A 27 
+State before SubBytes in round 7
+BD 61 F8 E5 44 9D 8A 42 A6 3C FE F2 08 C5 2A 27 
+State after SubBytes in round 7
+7A EF 41 D9 1B 5E 7E 2C 24 EB BB 89 30 A6 E5 CC 
+State after ShiftRows in round 7
+7A 5E BB CC 1B EB E5 D9 24 A6 41 2C 30 EF 7E 89 
+State after MixColumns in round 7
+61 DC 06 E8 2C 3B 51 8A D4 9C 74 D3 BD FE A3 C8 
+the roundKey for round 7
+52 3D 92 57 F3 00 A2 A0 0E D4 82 C3 3C A9 0B 89 
+State after AddRoundKey in round 7
+33 E1 94 BF DF 3B F3 2A DA 48 F6 10 81 57 A8 41 
+State before SubBytes in round 8
+33 E1 94 BF DF 3B F3 2A DA 48 F6 10 81 57 A8 41 
+State after SubBytes in round 8
+C3 F8 22 08 9E E2 0D E5 57 52 42 CA 0C 5B C2 83 
+State after ShiftRows in round 8
+C3 E2 42 83 9E 52 C2 08 57 5B 22 E5 0C F8 0D CA 
+State after MixColumns in round 8
+61 59 3B E3 1B 6F 4B 39 84 62 7C 51 CC 3A AB 6E 
+the roundKey for round 8
+9A 16 35 BC 69 16 97 1C 67 C2 15 DF 5B 6B 1E 56 
+State after AddRoundKey in round 8
+FB 4F 0E 5F 72 79 DC 25 E3 A0 69 8E 97 51 B5 38 
+State after SubBytes in final round 
+0F 84 AB CF 40 B6 86 3F 11 E0 F9 19 88 D1 D5 07 
+State after ShiftRows in final round 
+0F B6 F9 07 40 E0 D5 CF 11 D1 AB 3F 88 84 86 19 
+the roundKey for the final round
+D3 64 84 85 BA 72 13 99 DD B0 06 46 86 DB 18 10 
+State after AddRoundKey in final round 
+DC D2 7D 82 FA 92 C6 56 CC 61 AD 79 0E 5F 9E 09 
+Key section before RotLeft
+AF 7F 67 98 
+Key section after RotLeft
+7F 67 98 AF 
+Key section after SubBytes
+D2 85 46 79 
+RCon is 01
+Key section after RCon XOR
+D3 85 46 79 
+Key section before RotLeft
+28 81 15 A7 
+Key section after RotLeft
+81 15 A7 28 
+Key section after SubBytes
+0C 59 5C 34 
+RCon is 02
+Key section after RCon XOR
+0E 59 5C 34 
+Key section before RotLeft
+E6 FF D3 F5 
+Key section after RotLeft
+FF D3 F5 E6 
+Key section after SubBytes
+16 66 E6 8E 
+RCon is 04
+Key section after RCon XOR
+12 66 E6 8E 
+Key section before RotLeft
+A1 AE 2C C0 
+Key section after RotLeft
+AE 2C C0 A1 
+Key section after SubBytes
+E4 71 BA 32 
+RCon is 08
+Key section after RCon XOR
+EC 71 BA 32 
+Key section before RotLeft
+43 0E DD AA 
+Key section after RotLeft
+0E DD AA 43 
+Key section after SubBytes
+AB C1 AC 1A 
+RCon is 10
+Key section after RCon XOR
+BB C1 AC 1A 
+Key section before RotLeft
+93 40 B9 BD 
+Key section after RotLeft
+40 B9 BD 93 
+Key section after SubBytes
+09 56 7A DC 
+RCon is 20
+Key section after RCon XOR
+29 56 7A DC 
+Key section before RotLeft
+CF A9 A9 29 
+Key section after RotLeft
+A9 A9 29 CF 
+Key section after SubBytes
+D3 D3 A5 8A 
+RCon is 40
+Key section after RCon XOR
+93 D3 A5 8A 
+Key section before RotLeft
+32 7D 89 4A 
+Key section after RotLeft
+7D 89 4A 32 
+Key section after SubBytes
+FF A7 D6 23 
+RCon is 80
+Key section after RCon XOR
+7F A7 D6 23 
+Key section before RotLeft
+3C A9 0B 89 
+Key section after RotLeft
+A9 0B 89 3C 
+Key section after SubBytes
+D3 2B A7 EB 
+RCon is 1B
+Key section after RCon XOR
+C8 2B A7 EB 
+Key section before RotLeft
+5B 6B 1E 56 
+Key section after RotLeft
+6B 1E 56 5B 
+Key section after SubBytes
+7F 72 B1 39 
+RCon is 36
+Key section after RCon XOR
+49 72 B1 39 
+The expanded key is
+0F 15 71 C9 
+47 D9 E8 59 
+1C B7 AD D6 
+AF 7F 67 98 
+DC 90 37 B0 
+9B 49 DF E9 
+87 FE 72 3F 
+28 81 15 A7 
+D2 C9 6B 84 
+49 80 B4 6D 
+CE 7E C6 52 
+E6 FF D3 F5 
+C0 AF 8D 0A 
+89 2F 39 67 
+47 51 FF 35 
+A1 AE 2C C0 
+2C DE 37 38 
+A5 F1 0E 5F 
+E2 A0 F1 6A 
+43 0E DD AA 
+97 1F 9B 22 
+32 EE 95 7D 
+D0 4E 64 17 
+93 40 B9 BD 
+BE 49 E1 FE 
+8C A7 74 83 
+5C E9 10 94 
+CF A9 A9 29 
+2D 9A 44 74 
+A1 3D 30 F7 
+FD D4 20 63 
+32 7D 89 4A 
+52 3D 92 57 
+F3 00 A2 A0 
+0E D4 82 C3 
+3C A9 0B 89 
+9A 16 35 BC 
+69 16 97 1C 
+67 C2 15 DF 
+5B 6B 1E 56 
+D3 64 84 85 
+BA 72 13 99 
+DD B0 06 46 
+86 DB 18 10 
+State before AddRoundKey in initial round
+34 D3 F0 EE CB 4D FA 16 CB 8B F0 7F 29 A0 CB 79 
+the roundKey for initial round
+0F 15 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+State after AddRoundKey in initial round
+3B C6 81 27 8C 94 12 4F D7 3C 5D A9 86 DF AC E1 
+State before SubBytes in round 0
+3B C6 81 27 8C 94 12 4F D7 3C 5D A9 86 DF AC E1 
+State after SubBytes in round 0
+E2 B4 0C CC 64 22 C9 84 0E EB 4C D3 44 9E 91 F8 
+State after ShiftRows in round 0
+E2 22 4C F8 64 EB 91 CC 0E 9E 0C 84 44 B4 C9 D3 
+State after MixColumns in round 0
+0D 8A 4B B8 B3 CD F9 55 2D B9 1F 93 55 A4 17 0C 
+the roundKey for round 0
+DC 90 37 B0 9B 49 DF E9 87 FE 72 3F 28 81 15 A7 
+State after AddRoundKey in round 0
+D1 1A 7C 08 28 84 26 BC AA 47 6D AC 7D 25 02 AB 
+State before SubBytes in round 1
+D1 1A 7C 08 28 84 26 BC AA 47 6D AC 7D 25 02 AB 
+State after SubBytes in round 1
+3E A2 10 30 34 5F F7 65 AC A0 3C 91 FF 3F 77 62 
+State after ShiftRows in round 1
+3E 5F 3C 62 34 A0 77 30 AC 3F 10 65 FF A2 F7 91 
+State after MixColumns in round 1
+C3 A6 BF E5 D4 C6 2A EB 77 87 1C 0A 7E 33 00 76 
+the roundKey for round 1
+D2 C9 6B 84 49 80 B4 6D CE 7E C6 52 E6 FF D3 F5 
+State after AddRoundKey in round 1
+11 6F D4 61 9D 46 9E 86 B9 F9 DA 58 98 CC D3 83 
+State before SubBytes in round 2
+11 6F D4 61 9D 46 9E 86 B9 F9 DA 58 98 CC D3 83 
+State after SubBytes in round 2
+82 A8 48 EF 5E 5A 0B 44 56 99 57 6A 46 4B 66 EC 
+State after ShiftRows in round 2
+82 5A 57 EC 5E 99 66 EF 56 4B 48 44 46 A8 0B 6A 
+State after MixColumns in round 2
+4A 23 59 53 85 32 21 D8 7D 5C 41 71 0E 7A 46 BD 
+the roundKey for round 2
+C0 AF 8D 0A 89 2F 39 67 47 51 FF 35 A1 AE 2C C0 
+State after AddRoundKey in round 2
+8A 8C D4 59 0C 1D 18 BF 3A 0D BE 44 AF D4 6A 7D 
+State before SubBytes in round 3
+8A 8C D4 59 0C 1D 18 BF 3A 0D BE 44 AF D4 6A 7D 
+State after SubBytes in round 3
+7E 64 48 CB FE A4 AD 08 80 D7 AE 1B 79 48 02 FF 
+State after ShiftRows in round 3
+7E A4 AE FF FE D7 02 CB 80 48 48 08 79 64 AD 1B 
+State after MixColumns in round 3
+5A 3B 87 6D 4C 86 6B 41 83 C0 40 8B E8 46 71 74 
+the roundKey for round 3
+2C DE 37 38 A5 F1 0E 5F E2 A0 F1 6A 43 0E DD AA 
+State after AddRoundKey in round 3
+76 E5 B0 55 E9 77 65 1E 61 60 B1 E1 AB 48 AC DE 
+State before SubBytes in round 4
+76 E5 B0 55 E9 77 65 1E 61 60 B1 E1 AB 48 AC DE 
+State after SubBytes in round 4
+38 D9 E7 FC 1E F5 4D 72 EF D0 C8 F8 62 52 91 1D 
+State after ShiftRows in round 4
+38 F5 C8 1D 1E D0 91 FC EF 52 E7 72 62 D9 4D F8 
+State after MixColumns in round 4
+A1 97 61 4F 3A F1 E8 80 A6 0B FE 7B 01 E4 32 D9 
+the roundKey for round 4
+97 1F 9B 22 32 EE 95 7D D0 4E 64 17 93 40 B9 BD 
+State after AddRoundKey in round 4
+36 88 FA 6D 08 1F 7D FD 76 45 9A 6C 92 A4 8B 64 
+State before SubBytes in round 5
+36 88 FA 6D 08 1F 7D FD 76 45 9A 6C 92 A4 8B 64 
+State after SubBytes in round 5
+05 C4 2D 3C 30 C0 FF 54 38 6E B8 50 4F 49 3D 43 
+State after ShiftRows in round 5
+05 C0 B8 43 30 6E 3D 3C 38 49 2D 54 4F C4 FF 50 
+State after MixColumns in round 5
+AA 0E 6B F1 D3 97 60 7B D2 89 D7 84 66 96 9E 4A 
+the roundKey for round 5
+BE 49 E1 FE 8C A7 74 83 5C E9 10 94 CF A9 A9 29 
+State after AddRoundKey in round 5
+14 47 8A 0F 5F 30 14 F8 8E 60 C7 10 A9 3F 37 63 
+State before SubBytes in round 6
+14 47 8A 0F 5F 30 14 F8 8E 60 C7 10 A9 3F 37 63 
+State after SubBytes in round 6
+FA A0 7E 76 CF 04 FA 41 19 D0 C6 CA D3 75 9A FB 
+State after ShiftRows in round 6
+FA 04 C6 FB CF D0 9A 76 19 75 7E 41 D3 A0 FA CA 
+State after MixColumns in round 6
+DE 58 7F 3A 02 B7 AA EC 92 30 53 A2 76 57 D9 BB 
+the roundKey for round 6
+2D 9A 44 74 A1 3D 30 F7 FD D4 20 63 32 7D 89 4A 
+State after AddRoundKey in round 6
+F3 C2 3B 4E A3 8A 9A 1B 6F E4 73 C1 44 2A 50 F1 
+State before SubBytes in round 7
+F3 C2 3B 4E A3 8A 9A 1B 6F E4 73 C1 44 2A 50 F1 
+State after SubBytes in round 7
+0D 25 E2 2F 0A 7E B8 AF A8 69 8F 78 1B E5 53 A1 
+State after ShiftRows in round 7
+0D 7E 8F A1 0A 69 53 2F A8 E5 E2 AF 1B 25 B8 78 
+State after MixColumns in round 7
+B6 DA 8E BF D3 02 B4 7A 32 EB 78 A1 99 FA DD 40 
+the roundKey for round 7
+52 3D 92 57 F3 00 A2 A0 0E D4 82 C3 3C A9 0B 89 
+State after AddRoundKey in round 7
+E4 E7 1C E8 20 02 16 DA 3C 3F FA 62 A5 53 D6 C9 
+State before SubBytes in round 8
+E4 E7 1C E8 20 02 16 DA 3C 3F FA 62 A5 53 D6 C9 
+State after SubBytes in round 8
+69 94 9C 9B B7 77 47 57 EB 75 2D AA 06 ED F6 DD 
+State after ShiftRows in round 8
+69 77 2D DD B7 75 F6 9B EB ED 9C 57 06 94 47 AA 
+State after MixColumns in round 8
+BB 2D 38 40 87 C7 83 6C 2A C2 DC F9 46 56 F9 96 
+the roundKey for round 8
+9A 16 35 BC 69 16 97 1C 67 C2 15 DF 5B 6B 1E 56 
+State after AddRoundKey in round 8
+21 3B 0D FC EE D1 14 70 4D 00 C9 26 1D 3D E7 C0 
+State after SubBytes in final round 
+FD E2 D7 B0 28 3E FA 51 E3 63 DD F7 A4 27 94 BA 
+State after ShiftRows in final round 
+FD 3E DD BA 28 63 94 B0 E3 27 D7 51 A4 E2 FA F7 
+the roundKey for the final round
+D3 64 84 85 BA 72 13 99 DD B0 06 46 86 DB 18 10 
+State after AddRoundKey in final round 
+2E 5A 59 3F 92 11 87 29 3E 97 D1 17 22 39 E2 E7 
+Key section before RotLeft
+AF 7F 67 98 
+Key section after RotLeft
+7F 67 98 AF 
+Key section after SubBytes
+D2 85 46 79 
+RCon is 01
+Key section after RCon XOR
+D3 85 46 79 
+Key section before RotLeft
+28 81 15 A7 
+Key section after RotLeft
+81 15 A7 28 
+Key section after SubBytes
+0C 59 5C 34 
+RCon is 02
+Key section after RCon XOR
+0E 59 5C 34 
+Key section before RotLeft
+E6 FF D3 F5 
+Key section after RotLeft
+FF D3 F5 E6 
+Key section after SubBytes
+16 66 E6 8E 
+RCon is 04
+Key section after RCon XOR
+12 66 E6 8E 
+Key section before RotLeft
+A1 AE 2C C0 
+Key section after RotLeft
+AE 2C C0 A1 
+Key section after SubBytes
+E4 71 BA 32 
+RCon is 08
+Key section after RCon XOR
+EC 71 BA 32 
+Key section before RotLeft
+43 0E DD AA 
+Key section after RotLeft
+0E DD AA 43 
+Key section after SubBytes
+AB C1 AC 1A 
+RCon is 10
+Key section after RCon XOR
+BB C1 AC 1A 
+Key section before RotLeft
+93 40 B9 BD 
+Key section after RotLeft
+40 B9 BD 93 
+Key section after SubBytes
+09 56 7A DC 
+RCon is 20
+Key section after RCon XOR
+29 56 7A DC 
+Key section before RotLeft
+CF A9 A9 29 
+Key section after RotLeft
+A9 A9 29 CF 
+Key section after SubBytes
+D3 D3 A5 8A 
+RCon is 40
+Key section after RCon XOR
+93 D3 A5 8A 
+Key section before RotLeft
+32 7D 89 4A 
+Key section after RotLeft
+7D 89 4A 32 
+Key section after SubBytes
+FF A7 D6 23 
+RCon is 80
+Key section after RCon XOR
+7F A7 D6 23 
+Key section before RotLeft
+3C A9 0B 89 
+Key section after RotLeft
+A9 0B 89 3C 
+Key section after SubBytes
+D3 2B A7 EB 
+RCon is 1B
+Key section after RCon XOR
+C8 2B A7 EB 
+Key section before RotLeft
+5B 6B 1E 56 
+Key section after RotLeft
+6B 1E 56 5B 
+Key section after SubBytes
+7F 72 B1 39 
+RCon is 36
+Key section after RCon XOR
+49 72 B1 39 
+The expanded key is
+0F 15 71 C9 
+47 D9 E8 59 
+1C B7 AD D6 
+AF 7F 67 98 
+DC 90 37 B0 
+9B 49 DF E9 
+87 FE 72 3F 
+28 81 15 A7 
+D2 C9 6B 84 
+49 80 B4 6D 
+CE 7E C6 52 
+E6 FF D3 F5 
+C0 AF 8D 0A 
+89 2F 39 67 
+47 51 FF 35 
+A1 AE 2C C0 
+2C DE 37 38 
+A5 F1 0E 5F 
+E2 A0 F1 6A 
+43 0E DD AA 
+97 1F 9B 22 
+32 EE 95 7D 
+D0 4E 64 17 
+93 40 B9 BD 
+BE 49 E1 FE 
+8C A7 74 83 
+5C E9 10 94 
+CF A9 A9 29 
+2D 9A 44 74 
+A1 3D 30 F7 
+FD D4 20 63 
+32 7D 89 4A 
+52 3D 92 57 
+F3 00 A2 A0 
+0E D4 82 C3 
+3C A9 0B 89 
+9A 16 35 BC 
+69 16 97 1C 
+67 C2 15 DF 
+5B 6B 1E 56 
+D3 64 84 85 
+BA 72 13 99 
+DD B0 06 46 
+86 DB 18 10 
+State before AddRoundKey in initial round
+0F 15 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+the roundKey for initial round
+0F 15 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+State after AddRoundKey in initial round
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+State before SubBytes in round 0
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+State after SubBytes in round 0
+63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 
+State after ShiftRows in round 0
+63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 
+State after MixColumns in round 0
+63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 63 
+the roundKey for round 0
+DC 90 37 B0 9B 49 DF E9 87 FE 72 3F 28 81 15 A7 
+State after AddRoundKey in round 0
+BF F3 54 D3 F8 2A BC 8A E4 9D 11 5C 4B E2 76 C4 
+State before SubBytes in round 1
+BF F3 54 D3 F8 2A BC 8A E4 9D 11 5C 4B E2 76 C4 
+State after SubBytes in round 1
+08 0D 20 66 41 E5 65 7E 69 5E 82 4A B3 98 38 1C 
+State after ShiftRows in round 1
+08 E5 82 1C 41 5E 38 66 69 98 20 7E B3 0D 65 4A 
+State after MixColumns in round 1
+BA 58 D6 47 3E D3 C5 69 3F 5C 33 FF 45 4C AA 32 
+the roundKey for round 1
+D2 C9 6B 84 49 80 B4 6D CE 7E C6 52 E6 FF D3 F5 
+State after AddRoundKey in round 1
+68 91 BD C3 77 53 71 04 F1 22 F5 AD A3 B3 79 C7 
+State before SubBytes in round 2
+68 91 BD C3 77 53 71 04 F1 22 F5 AD A3 B3 79 C7 
+State after SubBytes in round 2
+45 81 7A 2E F5 ED A3 F2 A1 93 E6 95 0A 6D B6 C6 
+State after ShiftRows in round 2
+45 ED E6 C6 F5 93 B6 2E A1 6D 7A F2 0A 81 A3 95 
+State after MixColumns in round 2
+86 73 2E 53 C7 27 63 7D 66 07 35 10 BA 78 72 0D 
+the roundKey for round 2
+C0 AF 8D 0A 89 2F 39 67 47 51 FF 35 A1 AE 2C C0 
+State after AddRoundKey in round 2
+46 DC A3 59 4E 08 5A 1A 21 56 CA 25 1B D6 5E CD 
+State before SubBytes in round 3
+46 DC A3 59 4E 08 5A 1A 21 56 CA 25 1B D6 5E CD 
+State after SubBytes in round 3
+5A 86 0A CB 2F 30 BE A2 FD B1 74 3F AF F6 58 BD 
+State after ShiftRows in round 3
+5A 30 74 BD 2F B1 58 CB FD F6 0A A2 AF 86 BE 3F 
+State after MixColumns in round 3
+2D 1B 5E CB 05 75 68 15 48 B6 E2 BF 55 5E 0F AC 
+the roundKey for round 3
+2C DE 37 38 A5 F1 0E 5F E2 A0 F1 6A 43 0E DD AA 
+State after AddRoundKey in round 3
+01 C5 69 F3 A0 84 66 4A AA 16 13 D5 16 50 D2 06 
+State before SubBytes in round 4
+01 C5 69 F3 A0 84 66 4A AA 16 13 D5 16 50 D2 06 
+State after SubBytes in round 4
+7C A6 F9 0D E0 5F 33 D6 AC 47 7D 03 47 53 B5 6F 
+State after ShiftRows in round 4
+7C 5F 7D 6F E0 47 B5 0D AC 53 F9 D6 47 A6 33 03 
+State after MixColumns in round 4
+0B 2A 68 78 AA A7 C1 D3 99 CC 77 F2 4F 46 82 5A 
+the roundKey for round 4
+97 1F 9B 22 32 EE 95 7D D0 4E 64 17 93 40 B9 BD 
+State after AddRoundKey in round 4
+9C 35 F3 5A 98 49 54 AE 49 82 13 E5 DC 06 3B E7 
+State before SubBytes in round 5
+9C 35 F3 5A 98 49 54 AE 49 82 13 E5 DC 06 3B E7 
+State after SubBytes in round 5
+DE 96 0D BE 46 3B 20 E4 3B 13 7D D9 86 6F E2 94 
+State after ShiftRows in round 5
+DE 3B 7D 94 46 13 E2 BE 3B 6F 0D E4 86 96 20 D9 
+State after MixColumns in round 5
+03 BB B8 0C E5 E3 53 5C 2E 16 79 FC 4F 08 20 8E 
+the roundKey for round 5
+BE 49 E1 FE 8C A7 74 83 5C E9 10 94 CF A9 A9 29 
+State after AddRoundKey in round 5
+BD F2 59 F2 69 44 27 DF 72 FF 69 68 80 A1 89 A7 
+State before SubBytes in round 6
+BD F2 59 F2 69 44 27 DF 72 FF 69 68 80 A1 89 A7 
+State after SubBytes in round 6
+7A 89 CB 89 F9 1B CC 9E 40 16 F9 45 CD 32 A7 5C 
+State after ShiftRows in round 6
+7A 1B F9 5C F9 16 A7 89 40 32 CB 9E CD 89 CC 45 
+State after MixColumns in round 6
+7C 00 6C D4 FD AE 3A A8 83 FC 46 1E 88 CE 08 83 
+the roundKey for round 6
+2D 9A 44 74 A1 3D 30 F7 FD D4 20 63 32 7D 89 4A 
+State after AddRoundKey in round 6
+51 9A 28 A0 5C 93 0A 5F 7E 28 66 7D BA B3 81 C9 
+State before SubBytes in round 7
+51 9A 28 A0 5C 93 0A 5F 7E 28 66 7D BA B3 81 C9 
+State after SubBytes in round 7
+D1 B8 34 E0 4A DC 67 CF F3 34 33 FF F4 6D 0C DD 
+State after ShiftRows in round 7
+D1 DC 33 DD 4A 34 0C E0 F3 6D 34 CF F4 B8 67 FF 
+State after MixColumns in round 7
+28 FA 17 26 24 D6 5D 3D B1 BA BC D2 B8 C9 98 3D 
+the roundKey for round 7
+52 3D 92 57 F3 00 A2 A0 0E D4 82 C3 3C A9 0B 89 
+State after AddRoundKey in round 7
+7A C7 85 71 D7 D6 FF 9D BF 6E 3E 11 84 60 93 B4 
+State before SubBytes in round 8
+7A C7 85 71 D7 D6 FF 9D BF 6E 3E 11 84 60 93 B4 
+State after SubBytes in round 8
+DA C6 97 A3 0E F6 16 5E 08 9F B2 82 5F D0 DC 8D 
+State after ShiftRows in round 8
+DA F6 B2 8D 0E 9F DC A3 08 D0 97 5E 5F C6 16 82 
+State after MixColumns in round 8
+91 6D DF 30 D9 F7 CC 0C B2 4F 0F E3 7B 70 28 2E 
+the roundKey for round 8
+9A 16 35 BC 69 16 97 1C 67 C2 15 DF 5B 6B 1E 56 
+State after AddRoundKey in round 8
+0B 7B EA 8C B0 E1 5B 10 D5 8D 1A 3C 20 1B 36 78 
+State after SubBytes in final round 
+2B 21 87 64 E7 F8 39 CA 03 5D A2 EB B7 AF 05 BC 
+State after ShiftRows in final round 
+2B F8 A2 BC E7 5D 05 64 03 AF 87 CA B7 21 39 EB 
+the roundKey for the final round
+D3 64 84 85 BA 72 13 99 DD B0 06 46 86 DB 18 10 
+State after AddRoundKey in final round 
+F8 9C 26 39 5D 2F 16 FD DE 1F 81 8C 31 FA 21 FB 
+Key section before RotLeft
+AF 7F 67 98 
+Key section after RotLeft
+7F 67 98 AF 
+Key section after SubBytes
+D2 85 46 79 
+RCon is 01
+Key section after RCon XOR
+D3 85 46 79 
+Key section before RotLeft
+28 81 15 A7 
+Key section after RotLeft
+81 15 A7 28 
+Key section after SubBytes
+0C 59 5C 34 
+RCon is 02
+Key section after RCon XOR
+0E 59 5C 34 
+Key section before RotLeft
+E6 FF D3 F5 
+Key section after RotLeft
+FF D3 F5 E6 
+Key section after SubBytes
+16 66 E6 8E 
+RCon is 04
+Key section after RCon XOR
+12 66 E6 8E 
+Key section before RotLeft
+A1 AE 2C C0 
+Key section after RotLeft
+AE 2C C0 A1 
+Key section after SubBytes
+E4 71 BA 32 
+RCon is 08
+Key section after RCon XOR
+EC 71 BA 32 
+Key section before RotLeft
+43 0E DD AA 
+Key section after RotLeft
+0E DD AA 43 
+Key section after SubBytes
+AB C1 AC 1A 
+RCon is 10
+Key section after RCon XOR
+BB C1 AC 1A 
+Key section before RotLeft
+93 40 B9 BD 
+Key section after RotLeft
+40 B9 BD 93 
+Key section after SubBytes
+09 56 7A DC 
+RCon is 20
+Key section after RCon XOR
+29 56 7A DC 
+Key section before RotLeft
+CF A9 A9 29 
+Key section after RotLeft
+A9 A9 29 CF 
+Key section after SubBytes
+D3 D3 A5 8A 
+RCon is 40
+Key section after RCon XOR
+93 D3 A5 8A 
+Key section before RotLeft
+32 7D 89 4A 
+Key section after RotLeft
+7D 89 4A 32 
+Key section after SubBytes
+FF A7 D6 23 
+RCon is 80
+Key section after RCon XOR
+7F A7 D6 23 
+Key section before RotLeft
+3C A9 0B 89 
+Key section after RotLeft
+A9 0B 89 3C 
+Key section after SubBytes
+D3 2B A7 EB 
+RCon is 1B
+Key section after RCon XOR
+C8 2B A7 EB 
+Key section before RotLeft
+5B 6B 1E 56 
+Key section after RotLeft
+6B 1E 56 5B 
+Key section after SubBytes
+7F 72 B1 39 
+RCon is 36
+Key section after RCon XOR
+49 72 B1 39 
+The expanded key is
+0F 15 71 C9 
+47 D9 E8 59 
+1C B7 AD D6 
+AF 7F 67 98 
+DC 90 37 B0 
+9B 49 DF E9 
+87 FE 72 3F 
+28 81 15 A7 
+D2 C9 6B 84 
+49 80 B4 6D 
+CE 7E C6 52 
+E6 FF D3 F5 
+C0 AF 8D 0A 
+89 2F 39 67 
+47 51 FF 35 
+A1 AE 2C C0 
+2C DE 37 38 
+A5 F1 0E 5F 
+E2 A0 F1 6A 
+43 0E DD AA 
+97 1F 9B 22 
+32 EE 95 7D 
+D0 4E 64 17 
+93 40 B9 BD 
+BE 49 E1 FE 
+8C A7 74 83 
+5C E9 10 94 
+CF A9 A9 29 
+2D 9A 44 74 
+A1 3D 30 F7 
+FD D4 20 63 
+32 7D 89 4A 
+52 3D 92 57 
+F3 00 A2 A0 
+0E D4 82 C3 
+3C A9 0B 89 
+9A 16 35 BC 
+69 16 97 1C 
+67 C2 15 DF 
+5B 6B 1E 56 
+D3 64 84 85 
+BA 72 13 99 
+DD B0 06 46 
+86 DB 18 10 
+State before AddRoundKey in initial round
+28 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+the roundKey for initial round
+0F 15 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+State after AddRoundKey in initial round
+27 67 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+State before SubBytes in round 0
+27 67 71 C9 47 D9 E8 59 1C B7 AD D6 AF 7F 67 98 
+State after SubBytes in round 0
+CC 85 A3 DD A0 35 9B CB 9C A9 95 F6 79 D2 85 46 
+State after ShiftRows in round 0
+CC 35 95 46 A0 A9 85 DD 9C D2 A3 CB 79 85 9B F6 
+State after MixColumns in round 0
+0F 44 02 63 E3 A0 64 76 26 16 55 43 0B 28 D0 62 
+the roundKey for round 0
+DC 90 37 B0 9B 49 DF E9 87 FE 72 3F 28 81 15 A7 
+State after AddRoundKey in round 0
+D3 D4 35 D3 78 E9 BB 9F A1 E8 27 7C 23 A9 C5 C5 
+State before SubBytes in round 1
+D3 D4 35 D3 78 E9 BB 9F A1 E8 27 7C 23 A9 C5 C5 
+State after SubBytes in round 1
+66 48 96 66 BC 1E EA DB 32 9B CC 10 26 D3 A6 A6 
+State after ShiftRows in round 1
+66 1E CC A6 BC 9B A6 66 32 D3 96 DB 26 48 EA 10 
+State after MixColumns in round 1
+84 B3 0A 2F 15 06 DA 2E 47 F5 A0 BE 6E 83 91 E8 
+the roundKey for round 1
+D2 C9 6B 84 49 80 B4 6D CE 7E C6 52 E6 FF D3 F5 
+State after AddRoundKey in round 1
+56 7A 61 AB 5C 86 6E 43 89 8B 66 EC 88 7C 42 1D 
+State before SubBytes in round 2
+56 7A 61 AB 5C 86 6E 43 89 8B 66 EC 88 7C 42 1D 
+State after SubBytes in round 2
+B1 DA EF 62 4A 44 9F 1A A7 3D 33 CE C4 10 2C A4 
+State after ShiftRows in round 2
+B1 44 33 A4 4A 3D 2C 62 A7 10 EF 1A C4 DA 9F CE 
+State after MixColumns in round 2
+22 C8 64 EC 9D 26 89 0B 90 B7 5C 39 B7 1F 72 95 
+the roundKey for round 2
+C0 AF 8D 0A 89 2F 39 67 47 51 FF 35 A1 AE 2C C0 
+State after AddRoundKey in round 2
+E2 67 E9 E6 14 09 B0 6C D7 E6 A3 0C 16 B1 5E 55 
+State before SubBytes in round 3
+E2 67 E9 E6 14 09 B0 6C D7 E6 A3 0C 16 B1 5E 55 
+State after SubBytes in round 3
+98 85 1E 8E FA 01 E7 50 0E 8E 0A FE 47 C8 58 FC 
+State after ShiftRows in round 3
+98 01 0A FC FA 8E 58 8E 0E C8 1E 50 47 85 E7 FE 
+State after MixColumns in round 3
+DE 78 92 5B B0 9B 4D C4 11 F7 0A 64 03 9A 0E 4C 
+the roundKey for round 3
+2C DE 37 38 A5 F1 0E 5F E2 A0 F1 6A 43 0E DD AA 
+State after AddRoundKey in round 3
+F2 A6 A5 63 15 6A 43 9B F3 57 FB 0E 40 94 D3 E6 
+State before SubBytes in round 4
+F2 A6 A5 63 15 6A 43 9B F3 57 FB 0E 40 94 D3 E6 
+State after SubBytes in round 4
+89 24 06 FB 59 02 1A 14 0D 5B 0F AB 09 22 66 8E 
+State after ShiftRows in round 4
+89 02 0F 8E 59 5B 66 FB 0D 22 06 14 09 24 1A AB 
+State after MixColumns in round 4
+8E 12 1C 8A C2 BE D8 3B 6E 57 1F 1B CF C4 FF 68 
+the roundKey for round 4
+97 1F 9B 22 32 EE 95 7D D0 4E 64 17 93 40 B9 BD 
+State after AddRoundKey in round 4
+19 0D 87 A8 F0 50 4D 46 BE 19 7B 0C 5C 84 46 D5 
+State before SubBytes in round 5
+19 0D 87 A8 F0 50 4D 46 BE 19 7B 0C 5C 84 46 D5 
+State after SubBytes in round 5
+D4 D7 17 C2 8C 53 E3 5A AE D4 21 FE 4A 5F 5A 03 
+State after ShiftRows in round 5
+D4 53 21 03 8C D4 5A C2 AE 5F 17 5A 4A D7 E3 FE 
+State after MixColumns in round 5
+64 12 C0 13 FC 13 B1 9E EB 73 31 15 EB 3F 59 0D 
+the roundKey for round 5
+BE 49 E1 FE 8C A7 74 83 5C E9 10 94 CF A9 A9 29 
+State after AddRoundKey in round 5
+DA 5B 21 ED 70 B4 C5 1D B7 9A 21 81 24 96 F0 24 
+State before SubBytes in round 6
+DA 5B 21 ED 70 B4 C5 1D B7 9A 21 81 24 96 F0 24 
+State after SubBytes in round 6
+57 39 FD 55 51 8D A6 A4 A9 B8 FD 0C 36 90 8C 36 
+State after ShiftRows in round 6
+57 8D FD 36 51 B8 8C 55 A9 90 FD A4 36 39 A6 0C 
+State after MixColumns in round 6
+E9 7C 61 E5 A8 E0 15 6D BB 2A 2F DE 8D B9 4C DD 
+the roundKey for round 6
+2D 9A 44 74 A1 3D 30 F7 FD D4 20 63 32 7D 89 4A 
+State after AddRoundKey in round 6
+C4 E6 25 91 09 DD 25 9A 46 FE 0F BD BF C4 C5 97 
+State before SubBytes in round 7
+C4 E6 25 91 09 DD 25 9A 46 FE 0F BD BF C4 C5 97 
+State after SubBytes in round 7
+1C 8E 3F 81 01 C1 3F B8 5A BB 76 7A 08 1C A6 88 
+State after ShiftRows in round 7
+1C C1 76 88 01 BB A6 81 5A 1C 3F B8 08 8E 3F 7A 
+State after MixColumns in round 7
+9E 97 B2 98 F3 1C 75 07 17 9B EB A6 DC 34 76 5D 
+the roundKey for round 7
+52 3D 92 57 F3 00 A2 A0 0E D4 82 C3 3C A9 0B 89 
+State after AddRoundKey in round 7
+CC AA 20 CF 00 1C D7 A7 19 4F 69 65 E0 9D 7D D4 
+State before SubBytes in round 8
+CC AA 20 CF 00 1C D7 A7 19 4F 69 65 E0 9D 7D D4 
+State after SubBytes in round 8
+4B AC B7 8A 63 9C 0E 5C D4 84 F9 4D E1 5E FF 48 
+State after ShiftRows in round 8
+4B 9C F9 48 63 84 FF 8A D4 5E B7 5C E1 AC 0E 4D 
+State after MixColumns in round 8
+98 30 E6 28 24 E0 87 D1 BA F6 1B 36 75 FD 86 00 
+the roundKey for round 8
+9A 16 35 BC 69 16 97 1C 67 C2 15 DF 5B 6B 1E 56 
+State after AddRoundKey in round 8
+02 26 D3 94 4D F6 10 CD DD 34 0E E9 2E 96 98 56 
+State after SubBytes in final round 
+77 F7 66 22 E3 42 CA BD C1 18 AB 1E 31 90 46 B1 
+State after ShiftRows in final round 
+77 42 AB B1 E3 18 46 22 C1 90 66 BD 31 F7 CA 1E 
+the roundKey for the final round
+D3 64 84 85 BA 72 13 99 DD B0 06 46 86 DB 18 10 
+State after AddRoundKey in final round 
+A4 26 2F 34 59 6A 55 BB 1C 20 60 FB B7 2C D2 0E 
+
+Encrypted message:
+2E 5A 59 3F 92 11 87 29 3E 97 D1 17 22 39 E2 E7 F8 9C 26 39 5D 2F 16 FD DE 1F 81 8C 31 FA 21 FB A4 26 2F 34 59 6A 55 BB 1C 20 60 FB B7 2C D2 0E 
